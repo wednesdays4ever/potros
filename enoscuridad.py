@@ -595,7 +595,7 @@ def attic():
     print "The landing you reach is at the top of a spire and bathed in golden light."
     print "You look out from one of the windows available and discover that this structure borders a body of water."
     print "Nearby is an island with nothing built upon it, inhabited by what appear to be horses from here."
-    print "The island is a swimmable distance is your first though."
+    print "The island is a swimmable distance is your first thought."
     print "Perhaps you were an athlete? Perhaps this is a competition?"
     print "In the room there is another window and tall stone walls."
     print "Investigate or descend?"
