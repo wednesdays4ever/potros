@@ -1,13 +1,12 @@
 from sys import exit
 
 def dead(why):
-    print why, 
-    print "Some things remain forever unfinished."
-    print  "/     \\"
-    print "| () () |"
-    print "\\  ^  /"
-    print "  |||||"
-    print "  |||||"
+    print "%s. Some things remain forever unfinished.".center(80) % why
+    print "/     \\".center(80)
+    print "| () () |".center(80)
+    print "\\  ^  /".center(80)
+    print "|||||".center(80)
+    print "|||||".center(80)
     exit(0)
 
 def end_credits():
@@ -766,4 +765,5 @@ def dungeon():
         first_dungeon()
 
 
-start()
+if __name__ == "__main__":
+    start()
